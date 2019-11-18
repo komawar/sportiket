@@ -15,3 +15,13 @@ Tests have been included for views and models. Coverage report as per command `c
 
 Local run of the `coverage report` shows:
 TOTAL                                             343     25    93%
+
+
+To access the app (for example on localhost):
+  * front page: http://127.0.0.1:8000/cricpro/
+  * teams list: http://127.0.0.1:8000/cricpro/teams/
+  * team detail: http://127.0.0.1:8000/cricpro/teams/<team_uuid>
+  * players list: http://127.0.0.1:8000/cricpro/players/
+  * player detail: http://127.0.0.1:8000/cricpro/players/<player_uuid>
+  * setup a match: http://127.0.0.1:8000/cricpro/matches/
+  * create a tournament: http://127.0.0.1:8000/cricpro/matches/fixtures
